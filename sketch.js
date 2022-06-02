@@ -1,11 +1,10 @@
 //set variables for center (x,y)
-int x, y;
-x=90;
-y=110;
+let x=90;
+let y=110;
 
-
+function setup(){
 //window size and background
-size(200,200);
+createCanvas(200,200);
 background(150);
 
 //avatar background
@@ -26,3 +25,4 @@ circle(x,y,30);
 stroke(150,0,100);
 fill(150,0,100);
 circle(x,y,26);
+}
